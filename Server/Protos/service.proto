@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Server";
+
+service Counter {
+
+  rpc NeedRefill (EmptyRequest) returns (CounterResponse);
+  rpc IsServed (CustomerRequest) returns (CounterResponse);
+  rpc EnterQueue (CustomerRequest) returns (CounterIdResponse);
+  rpc LeaveQueue (CustomerRequest) returns (CounterResponse);
+  rpc TakeOffer (OfferRequest) returns (CounterResponse);
+}
+message EmptyRequest {}
+
+message CustomerRequest{
+	int32 itemCount = 1;
+	int32 id = 2;
+	int32 delay = 3;
+}
+message OfferRequest{
+	int32 itemCount = 1;
+	int32 price = 2;
+}
+message CounterResponse {
+	bool state = 1;
+}
+message CounterIdResponse{
+	int32 id = 1;
+}
+
