@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Server</name>
+    </assembly>
+    <members>
+        <member name="T:Server.Controllers.ServiceController">
+            <summary>
+            Service. Class must be marked public, otherwise ASP.NET core runtime will not find it.
+            </summary>
+        </member>
+        <member name="F:Server.Controllers.ServiceController._logic">
+            <summary>
+            Service logic
+            </summary>
+        </member>
+        <member name="F:Server.CounterLogic.log">
+            <summary>
+            Logger for this class.
+            </summary>
+        </member>
+        <member name="F:Server.CounterLogic._customerid">
+            <summary>
+            Unique generated customer ID
+            </summary>
+        </member>
+        <member name="P:Server.CounterLogic.Refill">
+            <summary>
+            Property indicating if the counter needs an item refill
+            </summary>
+        </member>
+        <member name="M:Server.CounterLogic.GenerateCustomerId">
+            <summary>
+            Generates a random customer ID
+            </summary>
+            <returns>Customer ID</returns>
+        </member>
+        <member name="F:Server.CounterLogic.LowItemCount">
+            <summary>
+            Count of items on which a refill is triggered
+            </summary>
+        </member>
+        <member name="P:Server.CounterLogic.ItemCount">
+            <summary>
+            Initial item count
+            </summary>
+        </member>
+        <member name="P:Server.CounterLogic.queue">
+            <summary>
+            List that represents the customer queue
+            </summary>
+        </member>
+        <member name="P:Server.CounterLogic.offers">
+            <summary>
+            List of offers that loaders give
+            </summary>
+        </member>
+        <member name="P:Server.CounterLogic.CustomerItems">
+            <summary>
+            Amount of items that customer is buying 
+            </summary>
+        </member>
+        <member name="M:Server.CounterLogic.Run">
+            <summary>
+            Runs counter that serves customers every 2 seconds
+            </summary>
+        </member>
+        <member name="M:Server.CounterLogic.NeedRefill">
+            <summary>
+            Checks if counter needs an item refill
+            </summary>
+            <returns>boolean indicating if refill is needed</returns>
+        </member>
+        <member name="M:Server.CounterLogic.TakeOffer(Server.OfferRequest)">
+            <summary>
+            Takes offer and adds to offer list
+            </summary>
+            <param name="offerData">Request containing offer data</param>
+            <returns>boolean indicating if the operation completed sucessfuly</returns>
+        </member>
+        <member name="M:Server.CounterLogic.EnterQueue(Server.CustomerRequest)">
+            <summary>
+            Adds customer to queue
+            </summary>
+            <param name="customerData">Request containing customer data</param>
+            <returns>boolean indicating if the operation completed sucessfuly</returns>
+        </member>
+        <member name="M:Server.CounterLogic.LeaveQueue(Server.CustomerRequest)">
+            <summary>
+            Removes customer from queue
+            </summary>
+            <param name="customerData">Request containing customer data</param>
+            <returns>boolean indicating if the operation completed sucessfuly</returns>
+        </member>
+        <member name="M:Server.CounterLogic.IsServed(Server.CustomerRequest)">
+            <summary>
+            Checks if customer finished buying items
+            </summary>
+            <param name="customerData">Request containing customer data</param>
+            <returns>boolean indicating if the operation completed sucessfuly</returns>
+        </member>
+        <member name="M:Server.CounterLogic.RefreshProperties(System.Int32)">
+            <summary>
+            Refreshes the refill property
+            </summary>
+        </member>
+        <member name="M:Server.Server.ConfigureNLog">
+            <summary>
+            Configure logging via NLog.
+            </summary>
+        </member>
+        <member name="M:Server.Server.Main(System.String[])">
+            <summary>
+            Program entry point.
+            </summary>
+            <param name="args">Command line arguments.</param>
+        </member>
+        <member name="M:Server.Server.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Create and configure web host builder.
+            </summary>
+            <param name="args">Command line arguments.</param>
+            <returns>Builder created</returns>
+        </member>
+        <member name="P:Server.Startup.Configuration">
+            <summary>
+            Configuration data. Injected via constructor.
+            </summary>
+        </member>
+        <member name="M:Server.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="configuration">Configuration data. Injected.</param>
+        </member>
+        <member name="M:Server.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container. 
+            </summary>
+            <param name="services">Services collection</param>
+        </member>
+        <member name="M:Server.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline. 
+            </summary>
+            <param name="app">Application builder.</param>
+            <param name="env">Web host environment.</param>
+        </member>
+    </members>
+</doc>

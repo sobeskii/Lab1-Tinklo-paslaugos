@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lZiunVh7EeaGuGOx/FlfcVWZM7mZUo1zeDBZmXXXVO6S6ywJaNvLTj8XThd4ShtNkn5br+ZDHCzM7GZxBtd01Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Lab2_Vladas_Bukinas_IFE8\\REST\\Customer\\Customer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vlada\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\vlada\\.nuget\\packages\\nswag.msbuild\\13.13.2\\nswag.msbuild.13.13.2.nupkg.sha512"
+  ],
+  "logs": []
+}
