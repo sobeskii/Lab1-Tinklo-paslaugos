@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EgjhGwLVc4vNgeMgh5WENBHDxTudYYwKMOAvie+1RGwxiwmIaosh9U0VNxN6gsiILbXGKdxBCD6+vqKqm4YNTQ==",
+  "dgSpecHash": "VYFRvkAjYd+YzfacNFjRf13HbgrjolUFMpMwqp8uDOKeDzWuIC4EqxJWuAKGBaf7chthgBIgMbjDyBpF6V1m6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Lab2_Vladas_Bukinas_IFE8\\REST\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\REST\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlada\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
     "C:\\Users\\vlada\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

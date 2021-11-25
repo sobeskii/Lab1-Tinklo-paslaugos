@@ -545,11 +545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Lab2_Vladas_Bukinas_IFE8\\REST\\Customer\\Customer.csproj",
+      "projectUniqueName": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\REST\\Customer\\Customer.csproj",
       "projectName": "Customer",
-      "projectPath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Lab2_Vladas_Bukinas_IFE8\\REST\\Customer\\Customer.csproj",
+      "projectPath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\REST\\Customer\\Customer.csproj",
       "packagesPath": "C:\\Users\\vlada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Lab2_Vladas_Bukinas_IFE8\\REST\\Customer\\obj\\",
+      "outputPath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\REST\\Customer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vlada\\AppData\\Roaming\\NuGet\\NuGet.Config",

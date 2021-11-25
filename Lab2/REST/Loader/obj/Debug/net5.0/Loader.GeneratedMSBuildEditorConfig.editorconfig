@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Loader
-build_property.ProjectDir = C:\Users\vlada\Desktop\ktu\4kursas\tinklo_paslaugos\Lab2_Vladas_Bukinas_IFE8\REST\Loader\
+build_property.ProjectDir = C:\Users\vlada\Desktop\ktu\4kursas\tinklo_paslaugos\Labs\Lab2\REST\Loader\

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "81R4l9C7XSPR5yfiYbOS3t2xWa8UgZJ5q0m7A5rHztwMFeEuGP+7SUE+uVeJmXKzKA/DG85Ca3tw/hVtGNY+Sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vlada\\Desktop\\Lab3_Vladas_Bukinas_IFE8\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vlada\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vlada\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\vlada\\.nuget\\packages\\nlog\\4.7.11\\nlog.4.7.11.nupkg.sha512",
+    "C:\\Users\\vlada\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\vlada\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\vlada\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
