@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UsQrw+I+jMSmWYqOZJ34GNP4VatJAckNMeBu8g3m24lBRWqoFS+4E3SM3RcAN4LswyM7Wk+NIWttylTzyx5qag==",
+  "dgSpecHash": "L0t3hihtak8J3lNYK7joaq+kfwBxB4rSVfigQkULK8/SDtM8huZUOo4Ly3w1eT23H/cjETCqLSDiMYYjoTMlQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vlada\\Desktop\\Lab2_Vladas_Bukinas_IFE8\\SOAP\\Customer\\Customer.csproj",
+  "projectFilePath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\SOAP\\Customer\\Customer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlada\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\vlada\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",

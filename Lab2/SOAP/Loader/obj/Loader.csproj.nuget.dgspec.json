@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vlada\\Desktop\\Lab2_Vladas_Bukinas_IFE8\\SOAP\\Loader\\Loader.csproj": {}
+    "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\SOAP\\Loader\\Loader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vlada\\Desktop\\Lab2_Vladas_Bukinas_IFE8\\SOAP\\Loader\\Loader.csproj": {
+    "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\SOAP\\Loader\\Loader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vlada\\Desktop\\Lab2_Vladas_Bukinas_IFE8\\SOAP\\Loader\\Loader.csproj",
+        "projectUniqueName": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\SOAP\\Loader\\Loader.csproj",
         "projectName": "Loader",
-        "projectPath": "C:\\Users\\vlada\\Desktop\\Lab2_Vladas_Bukinas_IFE8\\SOAP\\Loader\\Loader.csproj",
+        "projectPath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\SOAP\\Loader\\Loader.csproj",
         "packagesPath": "C:\\Users\\vlada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vlada\\Desktop\\Lab2_Vladas_Bukinas_IFE8\\SOAP\\Loader\\obj\\",
+        "outputPath": "C:\\Users\\vlada\\Desktop\\ktu\\4kursas\\tinklo_paslaugos\\Labs\\Lab2\\SOAP\\Loader\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vlada\\AppData\\Roaming\\NuGet\\NuGet.Config",
